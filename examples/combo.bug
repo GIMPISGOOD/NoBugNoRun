@@ -1,0 +1,9 @@
+# combo.bug - Vulnerability combo chain
+# Triggers 3 different vulnerability types in sequence.
+# Expected stderr: [COMBO x3] message
+
+NOTE "AAAAAAAAAAAAAAAA"
+NOTE "X"
+ANNOTATE 0x10, 1
+NOTE "%x"
+LOG

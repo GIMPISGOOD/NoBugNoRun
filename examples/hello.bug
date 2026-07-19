@@ -1,0 +1,9 @@
+# hello.bug - BugNote "Hello World"
+# The simplest exploit: overflow output_flag to enable LOG output.
+# Expected output: HiAAAAAAAAAAAAAAX
+# Expected stderr: [CVE-2025-0001] Buffer overflow triggered (CVSS: 3.1/Low)
+
+NOTE "Hi"
+NOTE "AAAAAAAAAAAAAA"
+NOTE "X"
+LOG

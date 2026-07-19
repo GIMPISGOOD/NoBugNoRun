@@ -1,0 +1,6 @@
+# format.bug - Format string attack demonstration
+# Expected stderr: [CVE] Format string attack detected (CVSS: 2.0/Low)
+
+ANNOTATE 0x10, 1
+NOTE "%x.%x.%x.%x"
+LOG

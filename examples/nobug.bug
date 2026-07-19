@@ -1,0 +1,6 @@
+# nobug.bug - Normal usage: nothing happens
+# No exploit triggered. Program refuses to execute.
+# Expected exit code: 1
+
+NOTE "safe"
+LOG

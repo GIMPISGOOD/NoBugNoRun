@@ -1,0 +1,8 @@
+# pwned.bug - Arbitrary "code execution" via type confusion
+# The full exploit chain: NOTE -> TODO -> ANNOTATE -> FIXME
+# Expected output: PWNED
+
+NOTE "PWNED"
+TODO
+ANNOTATE leak_ptr+0, 0x00
+FIXME

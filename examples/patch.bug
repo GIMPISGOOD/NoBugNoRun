@@ -1,0 +1,8 @@
+# patch.bug - Patch paradox demonstration
+# PATCH claims to fix overflow, but changes SEP behavior.
+# Expected stderr: [PATCH] message + new CVE (CVSS: 9.8/Critical)
+
+PATCH CVE-2025-0001
+ANNOTATE 0x10, 1
+NOTE "test"
+LOG

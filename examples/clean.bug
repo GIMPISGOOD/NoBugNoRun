@@ -1,0 +1,7 @@
+# clean.bug - Print clean string "Hi" using ANNOTATE backdoor
+# Expected output: Hi
+# Expected stderr: [CVE-2025-0001] Debug backdoor ANNOTATE used (CVSS: 0.0/Informational)
+
+ANNOTATE 0x10, 1
+NOTE "Hi"
+LOG
